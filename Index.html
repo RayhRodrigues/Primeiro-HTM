@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aulas do curso de html  Dio</title>
+</head>
+<body>
+    <header>
+        <hr/>
+        <title>Curso HTML</title>
+        <h1 id="inicio" >Curso HTML</h1>
+        <hr/>
+        <nav>
+            <ul>
+                <li><a href="#ferramentas">Ferramentas</a></li>
+                <li><a href="#Acessibilade">Acessibilade</a></li>
+                <li><a href="#Estrutura">Estrutura básica</a></li>
+                <li><a href="#Links">links</a></li>
+                <li><a href="#textos">Formatação textos</a></li>
+                <li><a href="#midias">Formatação Midias</a></li>
+                <li><a href="#recebendo">Recebendo informações</a></li>
+                <li><a href="#organizar">Organizando informações</a></li>
+                <li><a href="#referencias">Referências</a></li>
+            </ul>
+        </nav>
+            
+     </header>
+     <main>
+            <article>
+              
+              <section id="ferramentas">
+                    <h2>Ferramentas</h2>
+
+                    <p>  Para criar códigos HTML, nos familiarizamos com o Visual Studio Code, um software que, com a extensão Live Server, nos permite visualizar as alterações no código em tempo real. Também aprendemos a usar a ferramenta de inspeção de elementos do navegador para auxiliar no estudo da estrutura de um site.</p>
+                    <a href="#inicio">(Voltar)</a>
+
+              </section>
+              <section id="Acessibilade">
+                    <h2>Acessibilidade</h2>
+
+                    <p>  Acessibilidade web garante que todos possam usar a internet. Para isso, o HTML utiliza tags e atributos que ajudam tecnologias assistivas, como leitores de tela. Abaixo veremos alguns atributos vistos durante o curso:</p>
+                    <p> "alt": Descreve imagens para quem não pode vê-las.</p>
+                    <p>"summary": Utilizados em formulário, serve para cria títulos para conteúdos expansíveis, facilitando a navegação.</p>
+                        <p>"label": Associa texto a campos de formulário, melhorando a usabilidade.</p>
+                    <p>"aria": Fornece informações extras sobre elementos complexos, como botões e menus.</p>
+                    <p>Essas ferramentas são essenciais para criar sites inclusivos para todos.</p>
+                        <a href="#inicio">(Voltar)</a>
+              </section>
+              <section id="Estrutura">
+                    <h2>Estrutura básica</h2>
+                    <p>Na estrutura básica de uma página HTML é como o esqueleto de um corpo, e as tags são as palavras-chave que definem cada parte dessa estrutura. A maioria das tags funcionam com uma de abertura  e uma de fechamento  e dentro delas vai o conteúdo. Para adicionar mais informações a uma tag, usamos atributos como nome="valor". Alguns atributos são globais, podendo ser usados em quase todas as tags (como "id" ou "class"), enquanto outros são específicos e só funcionam em tags específicas (como "href' para links ou src para imagens).</p>
+                    <p>  </p>
+                    <p>Para criar uma estrutura  e organizada, especialmente para textos longos, você deve seguir uma hierarquia. O conteúdo principal da página deve sempre ficar dentro da tag "main", lembrando que o "main" fica dentro da tag "body", que seria o corpo do site,  e tem as tags "head", cabeçalho da página que aparece nomeando a aba do navegador e vai algumas configuraçãos importantes da pagina web e o "foot" que seria o rodapé do site . Se esse conteúdo for um item autônomo ele deve ser colocado dentro de uma tag article. Dentro desse article, você pode usar tags section para dividir o texto em partes lógicas, como capítulos ou tópicos, cada uma com seu próprio título. Dessa forma, você garante que a estrutura da sua página seja clara e bem definida para navegadores e leitores de tela.</p>
+                    <a href="#inicio">(Voltar)</a>
+              </section>
+              <section id="Links">
+                    <h2>Links</h2>
+
+                    <p>Para criar links em HTML, você usa a tag "a". Dentro dessa tag, o atributo "href" é essencial, pois ele define o destino do link. Você pode usar o "href" para direcionar o usuário a um site externo, como (a href="hhttps://www.dio.me")Acesse a Dio(/a), ou para uma página interna do seu próprio site, como (a href="sobre.html")Sobre Nós(/a). Se você quiser que o link abra em uma nova aba, adicione o atributo target="_blank". É uma prática comum envolver imagens com a tag "a" para transformá-las em links clicáveis.</p>
+                    <a href="#inicio">(Voltar)</a>
+              </section>
+              <section id="textos">
+                    <h2>Formatação textos</h2>
+
+                    <p> Em HTML, a formatação de textos é feita através de tags que dão significado e estrutura, e não apenas mudam a aparência. A tag p é a base para criar parágrafos, enquanto as tags de cabeçalho como h1 a h6 organizam o conteúdo com títulos e subtítulos. Para dar um estilo rápido ao texto, você pode usar a tag b  para deixar o texto em negrito, a tag u para sublinhar, e a tag i para deixá-lo em itálico. Se você precisa destacar um trecho importante, como um termo em um resultado de busca, a tag mark aplica um realce, como se fosse uma caneta marca-texto. Para textos mais especializados, as tags sup (superscript) e sub (subscript) são usadas para posicionar o texto acima ou abaixo da linha normal, como em expoentes matemáticos (x<sup>2</sup>) ou fórmulas químicas (H <sub>2</sub>O). Por fim, para citar um bloco de texto de outra fonte, a tag blockquote é utilizada, o que geralmente formata a citação com um recuo lateral. Todas essas tags trabalham juntas para dar estrutura e clareza ao conteúdo de uma página.</p>
+                    <a href="#inicio">(Voltar)</a>
+              </section>
+              <section id="midias">
+                    <h2>Formatação Midias</h2>
+                    <p>Para exibir mídia em uma página web, o HTML utiliza tags específicas que dão ao navegador as instruções sobre como carregar e exibir diferentes tipos de arquivos. Para imagens, a tag mais comum é a img, que usa o atributo src para apontar para o arquivo da imagem e o atributo alt para fornecer um texto alternativo, crucial para acessibilidade. Uma alternativa moderna é a tag svg, usada para gráficos vetoriais que, por serem baseados em código, mantêm a nitidez em qualquer tamanho.</p>
+                    <p></p>
+                    <p>Para áudio e vídeo, usamos as tags audio e video. Ambas exigem o atributo controls para mostrar os botões de reprodução e volume para o usuário. Como nem todos os navegadores suportam os mesmos formatos de mídia, a tag source é usada dentro de audio e video para oferecer múltiplos arquivos (como um .mp4 e um .webm para vídeo), garantindo a compatibilidade. Já a tag track é usada para adicionar legendas, legendas ocultas ou descrições a vídeos, melhorando a acessibilidade. Por fim, a tag iframe é usada para incorporar conteúdo de outra página da web diretamente na sua, sendo a maneira mais comum de adicionar vídeos do YouTube ou mapas do Google em um site.</p>
+                    <a href="#inicio">(Voltar)</a>
+              </section>
+              <section id="recebendo">
+                    <h2>Recebendo informações</h2>
+                    <p>Para coletar informações , a base é o formulário, que é criado com a tag"form". Ele funciona como uma caixa para todos os campos de entrada e tem atributos como "action", que define para onde os dados serão enviados, e "target", que decide onde a resposta do servidor será exibida. O principal campo de entrada é o "input", cuja função muda conforme seu "tipo". Por exemplo, "input" do tipo "checkbox" serve para selecionar múltiplas opções, enquanto o do tipo "radio" permite escolher apenas uma de um grupo, exigindo que todos os botões no grupo tenham o mesmo nome. Além do "input", para campos de texto longos, como mensagens, usamos o elemento "textarea". Para menus suspensos (dropdowns), usamos o elemento "select", que organiza as opções, cada uma definida pelo elemento "option". Por fim, para ações como enviar ou limpar o formulário, usamos o elemento "button", que também tem tipos como "submit" e "reset".</p>
+                    <a href="#inicio">(Voltar)</a>
+              </section>
+              <section id="organizar">
+                    <h2>Organizando informações</h2>
+                    <p>A organização da informação na web é fundamental para a clareza e a eficiência, e as principais ferramentas para isso são as tabelas e as listas.
+
+                    As tabelas são ideais para apresentar dados complexos, como informações financeiras ou estatísticas. Sua estrutura é definida por linhas "tr" e células de dados "td". Para dar sentido aos dados, usamos cabeçalhos de tabela "th", que destacam o que cada coluna ou linha representa. Atributos como "colspan" e "rowspan" são usados para unir células e criar layouts mais complexos, dando mais flexibilidade à apresentação dos dados.</p>
+                    <p></p>  
+                    </p>Já as listas são perfeitas para organizar itens de forma simples. Elas podem ser ordenadas "ol", quando a sequência dos itens é importante, como em um passo a passo. Por outro lado, as listas não ordenadas "ul" são usadas quando a ordem não importa, como em uma lista de compras. Em ambos os casos, cada item individual é marcado como um item de lista "li". A correta utilização dessas estruturas não apenas melhora a leitura para o usuário, mas também otimiza a acessibilidade do conteúdo para tecnologias assistivas.</p>
+                    <a href="#inicio">(Voltar)</a>
+              </section>
+              <section id="referencias">
+                    <h2>Referências</h2>
+
+                    <li><a href="https://youtube.com/playlist?list=PL2Fdisxwzt_ebZYgPFL8KeWqBhkF1Q8oe&si=3zVmOwAcwLYc1Nqb ">Curso programação Web Completo</a></li>
+                    <li><a href="https://www.homehost.com.br/blog/tutoriais/o-que-e-html/ ">O que é HTML?</a></li>
+                    <p></p>
+                    <a href="#inicio">(Voltar)</a>
+
+              </section>
+            </article>
+      
+     </main>  
+</body>
+</html>
